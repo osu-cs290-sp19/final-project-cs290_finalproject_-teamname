@@ -38,7 +38,7 @@ h1 {
 }
 h2 {
 	margin: 0px;
-	color: #67d0cc;
+	color: #47b0ac;
 }
 h3 {
 	margin: 0px;
@@ -53,6 +53,7 @@ li {
 }
 p {
 	color: #888473;
+	font-size: 16px;
 }
 .sidebar {
 	display: inline-block;
