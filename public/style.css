@@ -5,6 +5,7 @@ body {
 	background-color: #474842;
 	background: url("cloud.jpg") no-repeat center;
 	background-size: cover;
+	background-attachment: fixed;
 	margin: 0px;
 }
 .header {
@@ -15,11 +16,21 @@ body {
 a {
 	text-decoration:none;
 	color: #888473;
-	font-size: 15px;
 }
 a:hover {
 	color: #67d0cc;
+}
+.z {
+	font-size: 15px;
+}
+.z:hover {
 	font-size: 16px;
+}
+.tit {
+	margin: 0px;
+	color: #ebde91;
+	font-family: 'Cookie', cursive;
+	font-size: 35px;
 }
 h1 {
 	margin: 0px;
@@ -52,24 +63,31 @@ p {
 	float: right;
 }
 textarea {
-		padding: 5px 5px;
-		width: 150px;
-		color: #888473;
-		border: 1px solid #3f4036;
-		border-radius: 3px;
-		background-color: #222222;
-		resize: none;
+	padding: 5px 5px;
+	width: 150px;
+	color: #888473;
+	border: 1px solid #3f4036;
+	border-radius: 3px;
+	background-color: #222222;
+	resize: none;
 }
 input[type="button"] {
-		padding: 5px 5px;
-		margin: 5px 0px;
-		width: 60px;
-		color: #888473;
-		border: 1px solid #3f4036;
-		border-radius: 3px;
-		background-color: #222222;
-		resize: none;
-	}
+	padding: 5px 5px;
+	margin: 5px 0px;
+	width: 60px;
+	color: #888473;
+	border: 1px solid #3f4036;
+	border-radius: 3px;
+	background-color: #222222;
+	resize: none;
+}
+.box {
+	display: inline-block;
+	padding: 15px;
+	border-radius: 3px;
+	width: 256px;
+	background-color: #272822;
+}
 .card-holder {
 	display: inline;
 }
